@@ -1,4 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Beat" representedClassName="Beat" syncable="YES" codeGenerationType="class">
+        <attribute name="beat11First" optional="YES" attributeType="String"/>
+        <attribute name="beat11Half" optional="YES" attributeType="String"/>
+        <attribute name="beat11Second" optional="YES" attributeType="String"/>
+        <attribute name="beat12First" optional="YES" attributeType="String"/>
+        <attribute name="beat12Half" optional="YES" attributeType="String"/>
+        <attribute name="beat12Second" optional="YES" attributeType="String"/>
+        <attribute name="beat13First" optional="YES" attributeType="String"/>
+        <attribute name="beat13Half" optional="YES" attributeType="String"/>
+        <attribute name="beat13Second" optional="YES" attributeType="String"/>
+        <attribute name="beat14First" optional="YES" attributeType="String"/>
+        <attribute name="beat14Half" optional="YES" attributeType="String"/>
+        <attribute name="beat14Second" optional="YES" attributeType="String"/>
+        <attribute name="beat21First" optional="YES" attributeType="String"/>
+        <attribute name="beat21Half" optional="YES" attributeType="String"/>
+        <attribute name="beat21Second" optional="YES" attributeType="String"/>
+        <attribute name="beat22First" optional="YES" attributeType="String"/>
+        <attribute name="beat22Half" optional="YES" attributeType="String"/>
+        <attribute name="beat22Second" optional="YES" attributeType="String"/>
+        <attribute name="beat23First" optional="YES" attributeType="String"/>
+        <attribute name="beat23Half" optional="YES" attributeType="String"/>
+        <attribute name="beat23Second" optional="YES" attributeType="String"/>
+        <attribute name="beat24First" optional="YES" attributeType="String"/>
+        <attribute name="beat24Half" optional="YES" attributeType="String"/>
+        <attribute name="beat24Second" optional="YES" attributeType="String"/>
+        <attribute name="beat31First" optional="YES" attributeType="String"/>
+        <attribute name="beat31half" optional="YES" attributeType="String"/>
+        <attribute name="beat31Second" optional="YES" attributeType="String"/>
+        <attribute name="beat32First" optional="YES" attributeType="String"/>
+        <attribute name="beat32Half" optional="YES" attributeType="String"/>
+        <attribute name="beat32Second" optional="YES" attributeType="String"/>
+        <attribute name="beat33First" optional="YES" attributeType="String"/>
+        <attribute name="beat33Half" optional="YES" attributeType="String"/>
+        <attribute name="beat33Second" optional="YES" attributeType="String"/>
+        <attribute name="beat34First" optional="YES" attributeType="String"/>
+        <attribute name="beat34Half" optional="YES" attributeType="String"/>
+        <attribute name="beat34Second" optional="YES" attributeType="String"/>
+        <attribute name="beat41First" optional="YES" attributeType="String"/>
+        <attribute name="beat41Half" optional="YES" attributeType="String"/>
+        <attribute name="beat41Second" optional="YES" attributeType="String"/>
+        <attribute name="beat42First" optional="YES" attributeType="String"/>
+        <attribute name="beat42Half" optional="YES" attributeType="String"/>
+        <attribute name="beat42Second" optional="YES" attributeType="String"/>
+        <attribute name="beat43First" optional="YES" attributeType="String"/>
+        <attribute name="beat43Half" optional="YES" attributeType="String"/>
+        <attribute name="beat43Second" optional="YES" attributeType="String"/>
+        <attribute name="beat44First" optional="YES" attributeType="String"/>
+        <attribute name="beat44Half" optional="YES" attributeType="String"/>
+        <attribute name="beat44Second" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DrumKit" representedClassName="DrumKit" syncable="YES" codeGenerationType="class">
+        <attribute name="crash" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hihatclosed" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hihatopen" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hitom" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="kick" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lowtom" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="midtom" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="randomItem1" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="randomItem2" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ride" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rimshot" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sidestick" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="snare" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="DrumKit" positionX="-45" positionY="0" width="128" height="254"/>
+        <element name="Beat" positionX="-18" positionY="27" width="128" height="779"/>
+    </elements>
 </model>
